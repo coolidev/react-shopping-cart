@@ -44,27 +44,27 @@ const Header = (props) => {
         </div>
 
         <div className="search">
-          <a
+          <Link
             className="mobile-search"
-            href="#"
+            to={'#'}
             // onClick={this.handleMobileSearch.bind(this)}
           >
             <img
               src="https://res.cloudinary.com/sivadass/image/upload/v1494756966/icons/search-green.png"
               alt="search"
             />
-          </a>
+          </Link>
           <form action="#" method="get" className="search-form">
-            <a
+            <Link
               className="back-button"
-              href="#"
+              to={"#"}
               // onClick={this.handleSearchNav.bind(this)}
             >
               <img
                 src="https://res.cloudinary.com/sivadass/image/upload/v1494756030/icons/back.png"
                 alt="back"
               />
-            </a>
+            </Link>
             <input
               type="search"
               placeholder="Search for Vegetables and Fruits"
@@ -100,7 +100,7 @@ const Header = (props) => {
               </tbody>
             </table>
           </div>
-          <a className="cart-icon" href="#" onClick={handleCartButton}>
+          <Link className="cart-icon" to="#" onClick={handleCartButton}>
             <img
               className={props.cartBounce ? "tada" : " "}
               src="https://res.cloudinary.com/sivadass/image/upload/v1493548928/icons/bag.png"
@@ -111,7 +111,7 @@ const Header = (props) => {
             ) : (
               ""
             )}
-          </a>
+          </Link>
           <CartPreview />
         </div>
       </div>

@@ -23,7 +23,7 @@ const Home = () => {
 
   useEffect(() => {
     getProducts(dispatch);
-  }, []);
+  }, [dispatch]);
 
   if (isLoading) {
     return (

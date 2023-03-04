@@ -97,7 +97,7 @@ const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, persistedCartState);
   useEffect(() => {
     setPersistedCartItems(state.items);
-  }, [JSON.stringify(state.items)]);
+  }, [state.items, setPersistedCartItems]);
   return (
     <CartDispatchContext.Provider value={dispatch}>
       <CartStateContext.Provider value={state}>

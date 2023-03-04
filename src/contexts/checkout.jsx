@@ -42,7 +42,7 @@ const CheckoutProvider = ({ children }) => {
 
   useEffect(() => {
     setCheckoutState(state.shippingAddress);
-  }, [state.shippingAddress]);
+  }, [state.shippingAddress, setCheckoutState]);
   return (
     <CheckoutDispatchContext.Provider value={dispatch}>
       <CheckoutStateContext.Provider value={state}>
