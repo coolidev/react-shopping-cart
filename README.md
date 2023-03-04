@@ -4,7 +4,7 @@ Simple React Shopping Cart
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/coolidev/react-shopping-cart) [![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg)](https://github.com/coolidev/react-shopping-cart)
 
-![React Shopping Cart Preview](https://res.cloudinary.com/coolidev/image/upload/v1494752103/gifs/react-shopping-cart.gif)
+![React Shopping Cart Preview](https://user-images.githubusercontent.com/63435239/222872407-eab88af5-8574-4507-8278-2ffe2a0fa68a.gif)
 
 ## Setup
 
